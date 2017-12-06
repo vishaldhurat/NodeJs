@@ -1,0 +1,57 @@
+{
+  "name": "Bokie",
+  "version": "0.0.0",
+  "description": "Book APP Rest API'S RESOURCES ",
+  "main": "server.js",
+  "apidoc": {
+    "title": "Book App ",
+    "url": "http://localhost:3000"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://snbiradar@bitbucket.org/snbiradar/schoolone-angular.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "sharad",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "body-parser": "^1.14.2",
+    "compression": "^1.6.2",
+    "config": "^1.17.1",
+    "cookie-parser": "^1.4.0",
+    "crypto-js": "^3.1.6",
+    "errorhandler": "^1.4.2",
+    "express": "^4.13.3",
+    "handlebars": "^4.0.5",
+    "helmet": "^2.1.0",
+    "jwt-simple": "^0.5.0",
+    "method-override": "^2.3.5",
+    "moment": "^2.11.0",
+    "morgan": "^1.6.1",
+    "mysql": "^2.10.0",
+    "node-mysql": "^0.4.2",
+    "nodemailer": "^2.4.2",
+    "nodemailer-smtp-transport": "^2.5.0",
+    "request": "^2.72.0",
+    "serve-favicon": "^2.3.0",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "grunt": "1.0.1",
+    "grunt-apidoc": "^0.11.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.1",
+    "jsdoc": "^3.4.0",
+    "node-inspector": "^0.12.8"
+  }
+}

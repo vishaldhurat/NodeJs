@@ -1,0 +1,1 @@
+define({  "title": "Book App ",  "url": "http://localhost:3000",  "name": "Book APP",  "version": "0.0.0",  "description": "Book APP Rest API'S RESOURCES ",  "sampleUrl": false,  "defaultVersion": "0.0.0",  "apidoc": "0.3.0",  "generator": {    "name": "apidoc",    "time": "2017-01-25T17:43:29.449Z",    "url": "http://apidocjs.com",    "version": "0.17.4"  }});
